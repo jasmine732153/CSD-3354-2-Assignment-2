@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace  DelegateAndEvents
+
 {
     class Program
     {
@@ -13,3 +14,8 @@ namespace ConsoleApp2
         }
     }
 }
+public class  DelegateExercises
+{
+
+}
+
