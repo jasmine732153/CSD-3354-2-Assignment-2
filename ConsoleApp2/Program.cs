@@ -3,29 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Sukhpreet singh c0726660
+//kajalpreet kaur dandeyala c0732153
+//CSD3354-2
+//Assignment 2
+//march6,19
+
+
 namespace DelegatesAndEvents
 {
-    public class DelegateExercises
-    {
-        public delegate void MyDelegate();
-        void Method2(int i)
-        {
-            Console.WriteLine("Method1");
-            Console.ReadLine();
-        }
-        public void Method2()
-        {
-            MyDelegate myDelegate = new MyDelegate(Method2);
-            myDelegate();
-        }
-
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
-
-}
